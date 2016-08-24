@@ -11,7 +11,7 @@ body {
   color: @font;
   font-family: 'Roboto Mono', monospace;
   font-size: .8em;
-  padding: 0;
+  padding: 0 25%;
 }
 
 h1 {
@@ -26,8 +26,76 @@ h2 {
 }
 
 .links {
-  margin: 0 0 .5em 0;
+  margin: 0 0 1.5em 0;
   a {
     color: @font;
+    margin: auto 1em auto 0;
+  }
+}
+
+.intro {
+  .general();
+}
+
+.changelog {
+  .general();
+  .title {
+    font-weight: 700;
+    margin: .8em 0 1.5em 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    li {
+      display: flex;
+      justify-content: flex-start;
+      margin: 2em 0;
+      .left {
+        color: @subfont;
+        font-weight: 300;
+        min-width: 200px;
+        &:before {
+          content: '';
+          display: inline-block;
+          width: .7em;
+          height: .7em;
+          border-radius: 100%;
+          margin: 0 2em 0 0;
+        }
+      }
+    }
+  }
+}
+
+.updates {
+  .general();
+}
+
+.job {
+  .colorcode(@green);
+}
+.event {
+  .colorcode(@pink);
+}
+.fun {
+  .colorcode(@blue);
+}
+
+.colorcode(@color) {
+  .left:before {
+    background: @color;
+  }
+  em {
+    color: @color;
+  }
+}
+
+.general() {
+  margin: 0 0 4em 0;
+  a {
+    color: @yellow;
+    text-decoration: none;
+  }
+  .title {
   }
 }
