@@ -11,7 +11,12 @@ body {
   color: @font;
   font-family: 'Roboto Mono', monospace;
   font-size: .8em;
+  display: flex;
+  justify-content: center;
+}
 
+.container {
+  max-width: 650px;
 }
 
 h1 {
@@ -62,6 +67,13 @@ h2 {
 
 .updates {
   .general();
+  .loading {
+    animation: blinker 1s linear infinite;
+  }
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
 }
 
 .end {
