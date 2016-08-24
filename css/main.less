@@ -11,7 +11,7 @@ body {
   color: @font;
   font-family: 'Roboto Mono', monospace;
   font-size: .8em;
-  padding: 0 25%;
+
 }
 
 h1 {
@@ -39,17 +39,10 @@ h2 {
 
 .changelog {
   .general();
-  .title {
-    font-weight: 700;
-    margin: .8em 0 1.5em 0;
-  }
   ul {
-    list-style-type: none;
-    padding: 0;
     li {
       display: flex;
       justify-content: flex-start;
-      margin: 2em 0;
       .left {
         color: @subfont;
         font-weight: 300;
@@ -71,6 +64,10 @@ h2 {
   .general();
 }
 
+.end {
+  .general();
+}
+
 .job {
   .colorcode(@green);
 }
@@ -87,6 +84,7 @@ h2 {
   }
   em {
     color: @color;
+    font-style: normal;
   }
 }
 
@@ -97,5 +95,14 @@ h2 {
     text-decoration: none;
   }
   .title {
+    font-weight: 700;
+    margin: .8em 0 1.5em 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    li {
+      margin: 2em 0;
+    }
   }
 }
