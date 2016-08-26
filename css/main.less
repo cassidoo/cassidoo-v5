@@ -44,22 +44,20 @@ h2 {
 
 .changelog {
   .general();
-  ul {
-    li {
-      display: flex;
-      justify-content: flex-start;
-      .left {
-        color: @subfont;
-        font-weight: 300;
-        min-width: 200px;
-        &:before {
-          content: '';
-          display: inline-block;
-          width: .7em;
-          height: .7em;
-          border-radius: 100%;
-          margin: 0 2em 0 0;
-        }
+  li {
+    display: flex;
+    justify-content: flex-start;
+    .left {
+      color: @subfont;
+      font-weight: 300;
+      min-width: 200px;
+      &:before {
+        content: '';
+        display: inline-block;
+        width: .7em;
+        height: .7em;
+        border-radius: 100%;
+        margin: 0 2em 0 0;
       }
     }
   }
@@ -69,6 +67,10 @@ h2 {
   .general();
   .loading {
     animation: blinker 1s linear infinite;
+    margin: 1em 0 0 0;
+    &.hide {
+      display: none;
+    }
   }
 }
 

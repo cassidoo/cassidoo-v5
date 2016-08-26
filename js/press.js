@@ -41,9 +41,9 @@
   // generate press section
   function press(articles) {
     var p = document.getElementById('press');
+    document.getElementsByClassName('loading')[0].classList.add('hide');
     articles.forEach(function(x) {
       p.innerHTML += '<li><a href="' + x.url + '">' + x.title + '</a></li>';
     });
-    console.log(new Date());
   }
 })();
