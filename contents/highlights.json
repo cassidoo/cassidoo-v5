@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "type": "job",
+      "date": "August 2016",
+      "description": {
+        "what": "1 year anniversary at",
+        "emphasis": "Clarifai",
+        "info": "Yeah, they kept me around for this long."
+      }
+    },
+    {
+      "type": "fun",
+      "date": "July 2016",
+      "description": {
+        "what": "Got verified on",
+        "emphasis": "Twitter",
+        "info": "See the real deal at <a href='http://twitter.com/cassidoo'>@cassidoo</a>!"
+      }
+    },
+    {
+      "type": "event",
+      "date": "March 2016",
+      "description": {
+        "what": "Spoke at",
+        "emphasis": "SXSW",
+        "info": "I spoke on a panel called <a href='http://schedule.sxsw.com/2016/events/event_PP49277'>Dev Evangelism: Building a Community of Advocates</a>."
+      }
+    },
+    {
+      "type": "fun",
+      "date": "September 2015",
+      "description": {
+        "what": "Featured in",
+        "emphasis": "LinkedIn Next Wave",
+        "info": "I was included as one of LinkedIn's <a href='https://lists.linkedin.com/2015/next-wave/enterprise-tech/cassidy-williams'>top professionals 35 and under</a>!"
+      }
+    },
+    {
+      "type": "job",
+      "date": "August 2015",
+      "description": {
+        "what": "Joined full-time at",
+        "emphasis": "Clarifai",
+        "info": "Joined as Clarifai's first developer evangelist and first female engineer."
+      }
+    },
+    {
+      "type": "job",
+      "date": "Feburary 2015",
+      "description": {
+        "what": "Started as Director of Outreach for",
+        "emphasis": "Hacker Fund",
+        "info": "<a href='http://hacker.fund/'>Hacker Fund</a> is an awesome charity focused on bringing tech education to high schools."
+      }
+    },
+    {
+      "type": "event",
+      "date": "November 2014",
+      "description": {
+        "what": "Featured in",
+        "emphasis": "Glamour Magazine",
+        "info": "Included as one of Glamour's <a href='http://www.glamour.com/gallery/top-new-women-leaders-in-technology#33'>35 Women Under 35 Changing the Tech Industry</a>!"
+      }
+    },
+    {
+      "type": "event",
+      "date": "November 2014",
+      "description": {
+        "what": "Spoke at the Napa Valley Film Festival for starring in the documentary",
+        "emphasis": "Big Dream",
+        "info": "Check out more about the documentary <a href='http://www.bigdreammovement.com/'>here</a>!"
+      }
+    },
+    {
+      "type": "job",
+      "date": "July 2014",
+      "description": {
+        "what": "Joined full-time at",
+        "emphasis": "Venmo",
+        "info": "Joined after graduation as a software engineer & Venmo's first developer evangelist."
+      }
+    },
+    {
+      "type": "job",
+      "date": "May 2014",
+      "description": {
+        "what": "Graduated from",
+        "emphasis": "Iowa State University",
+        "info": "Graduated with a B.S. in Computer Science and a Spanish minor. Go Cyclones!"
+      }
+    },
+    {
+      "type": "event",
+      "date": "December 2013",
+      "description": {
+        "what": "Spoke at",
+        "emphasis": "TEDxDesMoines",
+        "info": "Spoke about <a href='https://www.youtube.com/watch?v=7O0z06YRKHg'>growing up in STEM</a>. I talked about LEGOs, too."
+      }
+    },
+    {
+      "type": "event",
+      "date": "July 2013",
+      "description": {
+        "what": "Hacked on",
+        "emphasis": "British Airways UnGrounded Thinking Hackathon",
+        "info": "This was, literally, a hackathon in the sky, on a flight from San Fran to London. My awesome team ended up being a winner, and we presented our project to various events, and we spoke to the U.N. later in the Fall."
+      }
+    },
+    {
+      "type": "job",
+      "date": "Summer 2013",
+      "description": {
+        "what": "Interned at",
+        "emphasis": "Intuit",
+        "info": "Got to experience Silicon Valley for the first time. It was nice. I also did a lot of JavaScript."
+      }
+    },
+    {
+      "type": "job",
+      "date": "Summer 2012",
+      "description": {
+        "what": "Interned at",
+        "emphasis": "Microsoft",
+        "info": "Worked on the Bing Ads team to bring you some awesome mobile web experiences. That I'm sure you use every day."
+      }
+    },
+    {
+      "type": "fun",
+      "date": "Spring 2012",
+      "description": {
+        "what": "Studied in",
+        "emphasis": "Spain",
+        "info": "Lived in Cáceres, Spain for a semester. Ate a lot of olives. Spoke a lot of Spanish."
+      }
+    },
+    {
+      "type": "job",
+      "date": "Summer 2011",
+      "description": {
+        "what": "Interned at",
+        "emphasis": "General Mills",
+        "info": "My first internship after my freshman year. I ate so much food."
+      }
+    }
+  ]
+}
