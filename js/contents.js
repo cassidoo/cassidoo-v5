@@ -36,16 +36,16 @@ function pullPress() {
 function highlights() {
   var h = document.getElementById('highlights');
   pullHighlights().then(function(r) {
+    document.getElementsByClassName('loading')[0].classList.add('hide');
     r.data.forEach(function(x) {
       h.innerHTML += '<li class="' + x.type +
         '"><div class="left">' + x.date +
-        '</div><div>' + x.description.what + ' ' +
-        '<em>' + x.description.emphasis + '</em></div></li>';
+        '</div><div class="desc"><div>' + x.description.what + ' ' +
+        '<em>' + x.description.emphasis + '</em></div><div class="info">' +
+        x.description.info + '</div></div></li>';
     });
   });
 }
-
-// <li class="job"><div class="left">Summer 2011</div><div>Interned at <em>General Mills</em></div></li>
 
 // first 5 press articles
 function pressVars() {
@@ -64,8 +64,7 @@ function pressVars() {
 // generate press section
 function press(articles) {
   var p = document.getElementById('press');
-  console.log(p);
-  document.getElementsByClassName('loading')[0].classList.add('hide');
+  document.getElementsByClassName('loading')[1].classList.add('hide');
   articles.forEach(function(x) {
     p.innerHTML += '<li><a href="' + x.url + '">' + x.title + '</a></li>';
   });

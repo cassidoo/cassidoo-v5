@@ -60,6 +60,27 @@ h2 {
         margin: 0 2em 0 0;
       }
     }
+    .desc {
+      display: flex;
+      flex-direction: column;
+      .info {
+        visibility: hidden;
+        max-height: 0;
+        transition: visibility 0s, max-height 0.5s linear;
+      }
+      &:hover .info {
+        visibility: visible;
+        max-height: 100px;
+        transition: max-height 0.5s linear;
+      }
+    }
+  }
+  .loading {
+    animation: blinker 1s linear infinite;
+    margin: 1em 0 0 0;
+    &.hide {
+      display: none;
+    }
   }
 }
 
@@ -103,7 +124,7 @@ h2 {
 }
 
 .general() {
-  margin: 0 0 4em 0;
+  margin: 0 0 2em 0;
   a {
     color: @yellow;
     text-decoration: none;
