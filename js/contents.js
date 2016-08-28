@@ -1,8 +1,14 @@
 // get all the contents jazz
 (function() {
+  var els = document.getElementsByClassName('title');
   window.addEventListener('load', function() {
     highlights();
     pressVars();
+    Array.prototype.forEach.call(els, function(el) {
+      el.addEventListener('click', function() {
+        el.parentElement.classList.toggle('expand');
+      }, false);
+    });
   }, false);
 })();
 

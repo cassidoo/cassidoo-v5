@@ -1,4 +1,5 @@
 @bg: #24252D;
+@bg2: #2f313b;
 @font: #CACACC;
 @subfont: #696A6F;
 @pink: #EB4888;
@@ -95,6 +96,27 @@ h2 {
   }
 }
 
+.bio {
+  .general();
+  .exp {
+    background: @bg2;
+    line-height: 1.8em;
+    margin: 2em 0 0 0;
+    padding: 0.8em 1.2em;
+  }
+}
+
+.expand {
+  .title {
+    &:before {
+      content: '[-] ';
+    }
+  }
+  .exp {
+    display: block;
+  }
+}
+
 @keyframes blinker {
   50% { opacity: 0.0; }
 }
@@ -130,8 +152,16 @@ h2 {
     text-decoration: none;
   }
   .title {
+    cursor: pointer;
+    font-size: 1.2em;
     font-weight: 700;
-    margin: .8em 0 1.5em 0;
+    margin: .8em 0;
+    &:before {
+      content: '[+] ';
+    }
+  }
+  .exp {
+    display: none;
   }
   ul {
     list-style-type: none;
