@@ -108,6 +108,7 @@ h2 {
 
 .expand {
   .title {
+    cursor: pointer;
     &:before {
       content: '[-] ';
     }
@@ -169,5 +170,14 @@ h2 {
     li {
       margin: 2em 0;
     }
+  }
+}
+
+@media(max-width: 600px) {
+  .changelog li .left {
+    min-width: 160px;
+  }
+  .links a {
+    margin: auto 1.5em auto 0;
   }
 }
