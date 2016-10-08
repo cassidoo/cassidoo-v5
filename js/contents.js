@@ -13,6 +13,9 @@ function expandGroups(event) {
   Array.prototype.forEach.call(els, function(el) {
     el.addEventListener(event, function() {
       el.parentElement.classList.toggle('expand');
+      if(el.classList.contains('flash')) {
+        el.classList.remove('flash');
+      }
     }, false);
   });
 }

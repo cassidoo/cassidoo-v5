@@ -173,6 +173,22 @@ h2 {
   }
 }
 
+.flash {
+  animation: 1s flash infinite;
+}
+
+@keyframes flash {
+  0% {
+    text-shadow: 0px 0px 5px #cacacc;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0px 0px 5px #cacacc;
+  }
+}
+
 @media(max-width: 600px) {
   .changelog li .left {
     min-width: 160px;
