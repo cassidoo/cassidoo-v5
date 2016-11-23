@@ -1,20 +1,10 @@
-// get all the contents jazz
-(function() {
-  window.addEventListener('load', function() {
-    highlights();
-    pressVars();
-    expandGroups('click');
-    expandGroups('touchend');
-  }, false);
-})();
-
 function expandGroups(event) {
   var els = document.getElementsByClassName('title');
   if (event === 'touchend') {
     event.preventDefault();
   }
   Array.prototype.forEach.call(els, function(el) {
-    el.addEventListener(event, function() {
+    el.addEventListener(event, function () {
       el.parentElement.classList.toggle('expand');
       if(el.classList.contains('flash')) {
         el.classList.remove('flash');
@@ -31,7 +21,7 @@ function buildHeader() {
 
   var init = {
     method: 'GET',
-    headers: head,
+    headers: head
   };
   return init;
 }
@@ -54,7 +44,7 @@ function highlights() {
   var h = document.getElementById('highlights');
   pullHighlights().then(function(r) {
     document.getElementsByClassName('loading')[0].classList.add('hide');
-    r.data.forEach(function(x) {
+    r.data.forEach(function (x) {
       h.innerHTML += '<li class="' + x.type +
         '"><div class="left">' + x.date +
         '</div><div class="desc"><div>' + x.description.what + ' ' +
@@ -86,3 +76,13 @@ function press(articles) {
     p.innerHTML += '<li><a href="' + x.url + '">' + x.title + '</a></li>';
   });
 }
+
+// get all the contents jazz
+(function () {
+  window.addEventListener('load', function() {
+    highlights();
+    pressVars();
+    expandGroups('click');
+    expandGroups('touchend');
+  }, false);
+})();
