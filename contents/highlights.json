@@ -2,11 +2,20 @@
   "data": [
     {
       "type": "job",
-      "date": "August 2016",
+      "date": "November 2016",
       "description": {
-        "what": "1 year anniversary at",
-        "emphasis": "Clarifai",
-        "info": "Yeah, they kept me around for this long."
+        "what": "Joined full time at",
+        "emphasis": "L4 Digital",
+        "info": "Joined as a senior software engineer."
+      }
+    },  
+    {
+      "type": "fun",
+      "date": "November 2016",
+      "description": {
+        "what": "Moved to",
+        "emphasis": "Seattle",
+        "info": "Time to get my nature on. Gonna climb a mountain."
       }
     },
     {
@@ -42,7 +51,7 @@
       "description": {
         "what": "Joined full-time at",
         "emphasis": "Clarifai",
-        "info": "Joined as Clarifai's first developer evangelist and first female engineer."
+        "info": "Joined as Clarifai's lead developer evangelist and front-end software engineer."
       }
     },
     {
