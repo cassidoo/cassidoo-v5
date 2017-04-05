@@ -1,6 +1,24 @@
 {
   "data": [
     {
+      "type": "event",
+      "date": "April 2017",
+      "description": {
+        "what": "Selected as one of the",
+        "emphasis": "2017 Iowa STATEment Makers",
+        "info": "I'm honored to be chosen as one of the 2017 <a href='http://www.isualum.org/pride/awards/statement-makers/2017-iowa-statement-makers/'>Iowa STATEment Makers</a>!"
+      }
+    },
+    {
+      "type": "fun",
+      "date": "December 2016",
+      "description": {
+        "what": "Got",
+        "emphasis": "engaged",
+        "info": "A whole new adventure awaits!"
+      }
+    },
+    {
       "type": "job",
       "date": "November 2016",
       "description": {
@@ -8,7 +26,7 @@
         "emphasis": "L4 Digital",
         "info": "Joined as a senior software engineer."
       }
-    },  
+    },
     {
       "type": "fun",
       "date": "November 2016",
@@ -37,7 +55,7 @@
       }
     },
     {
-      "type": "fun",
+      "type": "event",
       "date": "September 2015",
       "description": {
         "what": "Featured in",
