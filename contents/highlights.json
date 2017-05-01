@@ -1,6 +1,15 @@
 {
   "data": [
     {
+      "type": "fun",
+      "date": "April 2017",
+      "description": {
+        "what": "Released",
+        "emphasis": "todometer",
+        "info": "Finally finished up a side project I've been wanting to do for ages. Check it out <a href='http://cassidoo.github.io/todometer'>here</a>!"
+      }
+    },
+    {
       "type": "event",
       "date": "April 2017",
       "description": {
