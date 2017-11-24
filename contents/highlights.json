@@ -1,6 +1,24 @@
 {
   "data": [
     {
+      "type": "event",
+      "date": "November 2017",
+      "description": {
+        "what": "Got",
+        "emphasis": "married",
+        "info": "It's real, people. I'm a married adult!"
+      }
+    },
+    {
+      "type": "job",
+      "date": "November 2017",
+      "description": {
+        "what": "Released",
+        "emphasis": "my online JavaScript course on Udemy",
+        "info": "Super proud to have finished making my class, a JS and React course for intermediate developers. Check it out <a href='https://www.udemy.com/js-and-react-for-devs'>here</a>!"
+      }
+    },
+    {
       "type": "fun",
       "date": "April 2017",
       "description": {
