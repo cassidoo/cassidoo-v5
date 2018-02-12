@@ -1,6 +1,15 @@
 {
   "data": [
     {
+      "type": "job",
+      "date": "February 2018",
+      "description": {
+        "what": "Joined",
+        "emphasis": "Amazon",
+        "info": "Joined to lead Developer Voice Programs! Want to build a skill for Alexa? You should."
+      }
+    },
+    {
       "type": "event",
       "date": "November 2017",
       "description": {
