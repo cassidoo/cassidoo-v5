@@ -1,12 +1,21 @@
 {
   "data": [
     {
+      "type": "fun",
+      "date": "March 2018",
+      "description": {
+        "what": "Released",
+        "emphasis": "the official Scrabble Mechanical Keyboard",
+        "info": "I designed, licensed, and launched a Scrabble keyboard with Massdrop and Hasbro! <a href='https://www.producthunt.com/posts/massdrop-x-hasbro-scrabble-keyboard'>Check out the keyboard and press about it here!</a>"
+      }
+    },
+    {
       "type": "job",
       "date": "February 2018",
       "description": {
         "what": "Joined",
         "emphasis": "Amazon",
-        "info": "Joined to lead Developer Voice Programs! Want to build a skill for Alexa? You should."
+        "info": "I'm the Head of Developer Voice Programs here! Want to build a skill for Alexa? You should."
       }
     },
     {
