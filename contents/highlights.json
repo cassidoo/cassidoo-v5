@@ -1,6 +1,24 @@
 {
   "data": [
     {
+      "type": "job",
+      "date": "August 2018",
+      "description": {
+        "what": "Joined",
+        "emphasis": "CodePen",
+        "info": "I missed coding and I'm back at it at <a href='https://codepen.io/'>CodePen</a>! Join me in making fancy web experiments!"
+      }
+    },
+    {
+      "type": "job",
+      "date": "July 2018",
+      "description": {
+        "what": "Started as Director of Outreach for",
+        "emphasis": "cKeys",
+        "info": "<a href='https://ckeys.org/'>cKeys</a> is a 501(c)(3) non-profit that connects and educates people interested in keyboards and technology. My love for keyboards is more official now!"
+      }
+    },
+    {
       "type": "fun",
       "date": "March 2018",
       "description": {
@@ -15,7 +33,7 @@
       "description": {
         "what": "Joined",
         "emphasis": "Amazon",
-        "info": "I'm the Head of Developer Voice Programs here! Want to build a skill for Alexa? You should."
+        "info": "I'm all fancy with the title Head of Developer Voice Programs! Want to build a skill for Alexa? You should."
       }
     },
     {
@@ -69,7 +87,7 @@
       "description": {
         "what": "Joined full time at",
         "emphasis": "L4 Digital",
-        "info": "Joined as a senior software engineer."
+        "info": "Joined as a senior software engineer making cool web things."
       }
     },
     {
